@@ -68,9 +68,44 @@
 #         {"name":"ram","address":"ktm"},
 #     ],
 #     "students":[
-#         {"name":"sita","address":"brt"},
-#     ]
-# }
-# print(data["students"][0]["address"])
+# #         {"name":"sita","address":"brt"},
+# #     ]
+# # }
+# # print(data["students"][0]["address"])
 
-# students vitra [] vayako la 0 ma vayo ani 0 vitra ko address print garda brt aauxa
+# # students vitra [] vayako la 0 ma vayo ani 0 vitra ko address print garda brt aauxa
+
+# a=6
+# b=7
+# c=a
+# print(a is c)
+# print(a is not c)
+# print(a==c)
+
+# true, false aauxa output a rw c same ho so true
+
+# data=["ram","sita"]
+# # print("ram in data")
+# # print("ram is not in data")
+
+# #wap to enter five subject marks and calculate total, average and percentage.
+# nepali =int(input("Enter nepali marks:"))
+# Math =int(input("Enter math marks:"))
+# science =int(input("Enter science marks:"))
+# english =int(input("enter english marks:"))
+# total = nepali + Math + science + english
+# per =total/4
+# print("Total marks:",total)
+# print("Percentage:",per)
+
+# #wap to enter rupees and convert it into dollars.
+# paisa =int(input("paisa"))
+# amount =paisa/140
+# print(amount)
+
+#p,t,r = Enter principle, time and rate
+p =20
+t =67
+r =56
+si =(p * t * r)/100
+print("simple interest=",si)
