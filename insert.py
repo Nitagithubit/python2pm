@@ -168,12 +168,12 @@
 # else:
 #     print("odd number")    
 
-#WAP to enter any number and check whetherbit is divisible by 3 and 5.
+#WAP to enter any number and check whether bit is divisible by 3 and 5.
 # num =18
-# if num%6==0 and num%9==0:
-#     print("divisible by 6 and 9")
+# if num%4==0 and num%6==0:
+#     print("divisible by 4 and 6")
 # else:
-#     print("not divisible by 6 and 9")    
+    # print("not divisible by 4 and 6")    
 
 #pre>=35 and pre<50 ->C
 # #pre>=50 and pre<65 ->B   (Question)
@@ -181,14 +181,79 @@
 # #pre>=80 ->A+
 
 # percentage =int(input("Enter student percentage"))
-# if percentage >= 35 and percentage < 50:
+# if percentage >= 35 and percentage <50:
 #     print("sita")
-# elif percentage >= 50 and percentage < 65:
+# elif percentage >= 50 and percentage <65:
 #     print("ram")   
-# elif percentage >= 65 and percentage < 80:
+# elif percentage >= 65 and percentage <80:
 #      print("shyam")
 # elif percentage >= 80: 
 #      print("gita")   
 # else:
 #     print("f")          
 
+# Username="admin"
+# password="admin123"
+# if Username=="admin" and password=="admin123":
+#       print("login successfull")
+# else:
+#     print("Login Failed")      
+
+# username = "admin"
+# password = "admin123"
+# if username =="admin":
+#     if password=="admin123":
+#         print("Login Sucessfull")
+#     else:
+#        print("Incorrect Password")
+# else:
+#     print("Username not found")   
+
+#TOTAL QUANTITY:
+# print("welcome..............To.......Computer..........Bajar")
+# print("1. DELL(Rs:200000) 2. HP(Rs.250000) 3.Apple(Rs. 350000)")
+# option =int(input("Select Your option:"))
+# if option==1:
+#     qu =int (input("Enter Quantity:"))
+#     name =input("Enter your name:")
+#     phone =input("Enter your phone number:")
+#     Total=200000*qu
+#     print("Hello{Name}")
+#     print(f"Total amount: {Total}")
+# elif option==2:
+#     qu =int(input("Enter Quantity:"))
+#     name =input("Enter your name:")
+#     phone =input("Enter your phone number:")
+#     Total=250000*qu
+#     print(f"Total amount: {Total}")
+# elif option==3:  
+#     qu = int(input("Enter quantity:"))
+#     name =input("Enter your name")
+#     phone =input("Enter your phone number")
+#     Total=350000*qu
+#     print(f"Total amount: {Total}")
+# else:
+#     print("Invalid Option")
+
+# #ATM WITHDRAW CODE:
+# print("=========Welcome to ATM======")
+# pin =int(input("Enter your pin:"))
+# if pin==1234:
+#      amount=10000
+#      print("1. withdraw 2. Balanace Enquiry")
+#      option =int(input("select your option:"))
+#      if option==1:
+#         namount=int(input("Enter amount to withdraw:"))
+#         if namount>amount:
+#             print("insufficiant balance:")
+#         else:
+#             wamount =amount - namount
+#             print(f"Please collect your cash")
+#             print(f"Withdraw amount is: {namount}")
+#             print(f"Your remaining balance is:{wamount}")
+#      elif option==2:
+#          print(f"your balance is:{amount}")
+#      else:
+#             print("Invalid option")
+# else:
+#                 print("incorect pin")   

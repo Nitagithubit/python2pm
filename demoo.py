@@ -38,3 +38,31 @@
 # print(5>>1) Output: 5=0101, 1=0010, 0101/0010, 5*10, 10/5=2, Result=2.
 
 # 4.Assignment Operators: =,+=,-=, /=, %=, **=, //=
+#Addition(+=):
+# a=5
+# a+=8
+# print(a)
+
+# x=9
+# x +=6
+# print(x) #value same halnu parxa, output:15
+
+#Division(//):
+# x=30
+# x//=7
+# print(x) #divide garesi output:4
+
+# #Modulus(%):
+# x=10
+# x%=7
+# print(x) #output:3
+
+#Exponentiation(**=):
+# x=5
+# x **=3
+# print(x) #output:125
+
+#6.Membership Operators(in,not in):
+#in Operators:
+
+
