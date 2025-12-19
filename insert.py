@@ -257,3 +257,53 @@
 #             print("Invalid option")
 # else:
 #                 print("incorect pin")   
+
+# #welcome to============computer bazar====
+# 1. Dell(Rs:20000)
+# 2. Toshiba(Rs:30000)
+# 3.MAC(Rs:50000)
+# enter option
+# Delivery option:
+#  1. Home(Rs:1000)
+#  2.Pickup Free
+
+#  Packing Option
+#   1. Plastic bag(Rs:1000)
+#    2. Bag(Rs:2000)
+#     3. Gift box(Rs:5000)
+    
+#     location:
+#     1. KTM(Rs 13% tax)
+#      2. BKT(Free)
+#       3.Lalitpur(Free)
+
+#       Username?
+#       Product name?
+#       Quantity?
+#       Tax Amount?
+        # Grand Total?
+
+    print("=======Welcome to computer bazar========")
+    print("1. Dell(Rs.20000) 2.Toshiba(Rs:30000) 3. MAC(5000)")
+    option =int(input("Select your option: "))
+     productname=''
+     dell_price=0
+     hp_price=0
+     apple_price=0
+    if option == 1:
+        qu =int(input("Enter quantity"))
+        dell_price = qu*20000
+        productname='Dell'
+       
+    elif option == 2:    
+        qu =int(input("Enter quantity"))
+        Toshiba_price = qu*30000
+        productname='Toshiba'
+
+    elif option ==3:
+        qu =int(input("Enter quantity"))
+        MAC_price = qu*50000
+        productname='MAC'    
+
+    else:
+        print("Invalid")    
